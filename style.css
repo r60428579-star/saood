@@ -1,0 +1,281 @@
+
+#tap{
+    border: 1px solid rgb(17, 14, 14);
+    width: 300px;
+    padding-left: 30px;
+    height: 200px;
+    
+}
+#container{
+    height: 460px;
+    border: 1px solid #e4e4e4,;
+    width: 500px;
+    margin-top: 60px;
+    border-radius: 20px;
+    margin-left: 380px;
+    background:rgb(237, 240, 240);
+    
+
+
+    
+}
+#enterbahi{
+    width: 450px;
+    margin-left: 18px;
+    font-size: 24px;
+    margin-top: 20px;
+    height:55px;
+    border-radius: 20px;
+}
+#onebahi{
+    
+    font-weight: bold;
+    width: 100px;
+    color: aliceblue;
+    margin-top: -20px;
+    margin-left: 20px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: rgba(20, 20, 20, 0.7);
+    font-size: 20px;
+}
+
+#twobahi{
+    
+    font-weight: bold;
+    color: aliceblue;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 60px;
+    border-radius: 20px;
+    background: rgba(20, 20, 20, 0.6);
+    font-size: 20px;
+}
+#twobahi:hover{
+    background-color: rgba(20, 20, 20, 0.7);
+}
+#threebahi{
+    
+    font-weight: bold;
+    color: aliceblue;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 60px;
+    border-radius: 20px;
+    background: rgba(20, 20, 20, 0.6);
+    font-size: 20px;
+}
+#threebahi:hover{
+    background-color: rgba(20, 20, 20, 0.7);
+}
+#plusbahi{
+    
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 60px;
+    border-radius: 20px;
+    
+    background-color:  rgba(95, 69, 69, 0.6);
+    font-size: 20px;
+}
+#plusbahi:hover{
+     background-color: rgba(181, 194, 106, 0.7);
+    box-shadow: 1px 1px 10px 2px;
+}
+
+#fourbahi{
+    
+    font-weight: bold;
+    color: aliceblue;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 60px;
+    border-radius: 20px;
+    
+    background-color: rgba(20, 20, 20, 0.7);
+    font-size: 20px;
+}
+
+#fivebahi{
+    
+    font-weight: bold;
+    color: aliceblue;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 60px;
+    border-radius: 20px;
+   
+    font-size: 20px;
+    background-color: rgba(20, 20, 20, 0.7);
+}
+
+#sixbahi{
+    
+    font-weight: bold;
+    color: aliceblue;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 60px;
+    border-radius: 20px;
+    
+    background: rgba(20, 20, 20, 0.6);
+    font-size: 20px;
+}
+#sixbahi:hover{
+    background-color: rgba(20, 20, 20, 0.7);
+}
+#minusbahi{
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 60px;
+    border-radius: 20px;
+  
+    background: rgba(95, 69, 69, 0.6);
+    font-size: 20px;
+}
+#minusbahi:hover{
+    background-color: rgba(181, 194, 106, 0.7);
+    box-shadow: 1px 1px 10px 2px;
+}
+#sevenbahi{
+    
+    font-weight: bold;
+    color: aliceblue;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 60px;
+    border-radius: 20px;
+    
+    background: rgba(20, 20, 20, 0.6);
+    font-size: 20px;
+}
+#sevenbahi:hover{
+    background-color: rgba(20, 20, 20, 0.7);
+}
+#eightbahi{
+    
+    font-weight: bold;
+    color: aliceblue;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 60px;
+    border-radius: 20px;
+    
+    background: rgba(20, 20, 20, 0.6);
+    font-size: 20px;
+}
+#eightbahi:hover{
+    background-color: rgba(20, 20, 20, 0.7);
+}
+#ninebahi{
+    
+    font-weight: bold;
+    color: aliceblue;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 60px;
+    border-radius: 20px;
+    
+    background: rgba(20, 20, 20, 0.6);
+    font-size: 20px;
+}
+#ninebahi:hover{
+    background-color: rgba(20, 20, 20, 0.7);
+}
+#onebahi{
+    
+    font-weight: bold;
+    color: aliceblue;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 60px;
+    border-radius: 20px;
+    
+    background: rgba(20, 20, 20, 0.6);
+    font-size: 20px;
+}
+#onebahi:hover{
+    background-color: rgba(20, 20, 20, 0.7);
+}
+#dividebahi{
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 60px;
+    border-radius: 20px;
+    
+background: rgba(95, 69, 69, 0.6);
+    font-size: 20px;
+}
+#dividebahi:hover{
+    background-color: rgba(181, 194, 106, 0.7);
+    box-shadow: 1px 1px 10px 2px;
+}
+#zerobahi{
+    font-weight: bold;
+    color: aliceblue;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 60px;
+    border-radius: 20px;
+    
+    background: rgba(20, 20, 20, 0.6);
+    font-size: 20px;
+}
+#zerobahi:hover{
+    background-color: rgba(20, 20, 20, 0.7);
+}
+#isequallbahi{
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 60px;
+    border-radius: 20px;
+
+    background: rgba(95, 69, 69, 0.6);
+    font-size: 20px;
+}
+#isequallbahi:hover{
+    background-color: rgba(181, 194, 106, 0.7);
+    box-shadow: 1px 1px 10px 2px;
+}
+#bahibahi{
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 60px;
+    border-radius: 20px;
+    
+    background: rgba(95, 69, 69, 0.6);
+    font-size: 20px;
+}
+#bahibahi:hover{
+
+     background-color: rgba(181, 194, 106, 0.7);
+    box-shadow: 1px 1px 10px 2px;
+}
+#bahichara{
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 60px;
+    border-radius: 20px;
+    
+    background: rgba(20, 20, 20, 0.6);
+    font-size: 20px;
+}
+#bahichara:hover{
+   background: rgba(20, 20, 20, 0.6);
+}

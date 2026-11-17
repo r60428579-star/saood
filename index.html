@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onscroll="bahi()">
+    
+    
+    <input type="text" id="name">
+    <input type="text" id="fname">
+    <input type="text" id="com">
+    <input type="text" id="chem">
+    <input type="text" id="bio">
+    <input type="text" id="urdu">
+    <p id="sho00"></p>
+    <p id="sho01"></p>
+    <p id="sho11"></p>
+    <p id="sho22"></p>
+    <p id="sho33"></p>
+    <p id="sho44"></p>
+    <button onclick="result()" >click it</button>
+    <script>
+       
+         function result(){
+           let  a1=document.getElementById('name').value;
+           let  a2=document.getElementById('fname').value;
+           let  a3=parseInt(document.getElementById('com').value);
+           let  a4=parseInt(document.getElementById('chem').value);
+           let  a5=parseInt(document.getElementById('bio').value);
+           let  a6=parseInt(document.getElementById('urdu').value);
+           
+
+           document.getElementById('sho00').innerHTML=a1;
+           document.getElementById('sho01').innerHTML=a2;
+
+           if(a3>=33 && a3<=100){
+             document.getElementById('sho11').innerHTML='pass'+a3;
+           }
+           else{
+             document.getElementById('sho11').innerHTML='fail'+a3;
+           }
+           if(a4>=33 && a4<=100){
+            document.getElementById('sho22').innerHTML='pass'+a4;
+           }
+           else{
+            document.getElementById('sho22').innerHTML='fail'+a4;
+           }
+           if(a5>=33 && a5<=100){
+            document.getElementById('sho33').innerHTML='Pass'+a5;
+
+           }
+           else{
+            document.getElementById('sho33').innerHTML='Fail'+a5;
+           }
+           if(a6>=33 && a6<=100){
+            document.getElementById('sho44').innerHTML='Pass'+a6;
+           }
+           else{
+            document.getElementById('sho44').innerHTML='Fail'+a6; 
+           }
+    
+           
+      
+         }
+     </script>
+    
+
+
+
+
+
+    <br><br><br><br><br><br>
+    <p id="show1"></p>
+    <script>
+        let rizwano=0;
+        function bahi(){
+           document.getElementById('show1').innerHTML=rizwano +=1; 
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+    <input type="number" placeholder="enter your A Value" id="avalue">
+    <input type="number" placeholder="enter your B Value" id="bvalue">
+    <p id="value"></p>
+    <button onclick="bro()">click</button>
+    <script>
+        function bro(){
+            let a=document.getElementById('avalue').value;
+            let b=document.getElementById('bvalue').value;
+            let result=(a*a)+(b*b)+2(a*b);
+            document.getElementById('value').innerHTML="a*a"+"b*b"+2+a*b;
+            document.getElementById('value').innerHTML=a*a+b*b+2+"a+b";
+            document.getElementById('value').innerHTML="a*a"+"b*b"+2+a+b;
+            document.getElementById('value').innerHTML="a*a"+"b*b"+2+a+b;
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div id="tap">
+   <div id="color"> <input type="number" placeholder="table number" id="table">
+    <input type="number" placeholder="first number" id="fnum">
+    <input type="number" placeholder="second" id="snum">
+    <p id="and"></p>
+    <button onclick="click()">click</button>
+    </div>
+    <script>
+        function click(){
+            let   a=document.getElementById('table').value;
+            let b=document.getElementById('fnum').value;
+            let c=document.getElementById('snum').value;
+            for(let s=b;s<=c;s++){
+                document.getElementById('and').innerHTML+=a+'X'+s+'='+s*a+'<br>';
+                
+                
+            }
+        }
+    </script>
+    </div> -->
+
+
+
+
+ 
+
+
+
+    <br>
+      <div id="container">
+<div id="inputbahi">
+<input type="textbox" id="enterbahi" >
+<br>
+<button  id="onebahi"     onfocus="number1()" onblur="number11()"  onclick="appendValue('1')">1</button>
+<button  id="twobahi"     onfocus="number2()" onblur="number22()" onclick="appendValue('2')">2</button>
+<button id="threebahi"    onfocus="number3()" onblur="number33()" onclick="appendValue('3')">3</button>
+<button id="bahibahi"     onfocus="numberce()" onclick="clearDisplay('CE')">CE</button>
+<button id="fourbahi"     onfocus="number4()" onblur="number44()" onclick="appendValue('4')">4</button>
+<button id="fivebahi"     onfocus="number5()" onblur="number55()" onclick="appendValue('5')">5</button>
+<button id="sixbahi"      onfocus="number6()" onblur="number66()" onclick="appendValue('6')">6</button>
+<button id="dividebahi" onclick="appendValue('*')">x</button>
+<button id="sevenbahi"    onfocus="number7()" onblur="number77()"  onclick="appendValue('7')">7</button>
+<button id="eightbahi"    onfocus="number8()" onblur="number88()" onclick="appendValue('8')">8</button>
+<button id="ninebahi"     onfocus="number9()" onblur="number99()" onclick="appendValue('9')">9</button>
+<button id="isequallbahi"  onclick="appendValue('/')">&divide;</button>
+<button id="bahibahi" onclick="appendValue('+')">+</button>
+<button id="bahichara"     onclick="appendValue('0')" onfocus="number10()" onblur="number1010()">0</button>
+<button id="minusbahi" onclick="appendValue('-')">-</button>
+<button id="plusbahi"onclick="cal()" >=</button>
+</div>
+    </div>
+    <script>
+       function number1(){
+        document.getElementById('onebahi').style='background-color:black;';
+       }
+       function number11(){
+        
+        document.getElementById('onebahi').style='background-color:;';
+       }
+       function number2(){
+        document.getElementById('twobahi').style='background-color:black;';
+       }
+       function number22(){
+        
+        document.getElementById('twobahi').style='background-color:;';
+       }
+       
+       function number3(){
+        document.getElementById('threebahi').style='background-color:black;';
+       }
+       function number33(){
+        document.getElementById('threebahi').style='background-color:;';
+       }
+       function number4(){
+        document.getElementById('fourbahi').style='background-color:black;';
+       }
+       function number44(){
+        document.getElementById('fourbahi').style='background-color:;';
+       }
+       function number5(){
+        document.getElementById('fivebahi').style='background-color:black;';
+       }
+       function number55(){
+        document.getElementById('fivebahi').style='background-color:;';
+       }
+       function number6(){
+        document.getElementById('sixbahi').style='background-color:black;';
+       }
+       function number66(){
+        document.getElementById('sixbahi').style='background-color:;';
+       }
+       
+       function number7(){
+        document.getElementById('sevenbahi').style='background-color:black;';
+       }
+       function number77(){
+        document.getElementById('sevenbahi').style='background-color:;';
+       }
+       function number8(){
+        document.getElementById('eightbahi').style='background-color:black;';
+       }
+       function number88(){
+        document.getElementById('eightbahi').style='background-color:;';
+       }
+       function number9(){
+        document.getElementById('ninebahi').style='background-color:black;';
+       }
+       function number99(){
+        document.getElementById('ninebahi').style='background-color:;';
+       }
+       function number10(){
+        document.getElementById('bahichara').style='background-color:black; color:red;';
+       }
+       function number1010(){
+        document.getElementById('bahichara').style='background-color:; ';
+       }
+       
+
+        
+       let display=document.getElementById('enterbahi');
+       function clearDisplay(){
+        display.value='';
+       }
+       function appendValue(val){
+        display.value+=val;
+       }
+       function cal(){
+        try{
+            display.value=eval(display.value);
+
+        }
+        catch(error){
+            display.value='error';
+        }
+       }
+       </script> 
+     <br>
+
+
+    
+      
+
+
+
+
+
+
+
+
+ 
+
+
+    
+    <!-- <input type="number" placeholder="enter your first number" id="first">
+    <input type="number" placeholder="enter your second number" id="second">
+    <input type="text" placeholder="operator" id="ope">
+    <p id="name"></p>
+    <button onclick="you()">click</button>
+    <script>
+        function you(){
+            let a=parseInt(document.getElementById('first').value);
+            let b=parseInt(document.getElementById('second').value);
+            let c=document.getElementById('ope').value;
+            switch(c){
+                case'+':
+                document.getElementById('name').innerHTML=a+b;
+                break;
+                case'-':
+                document.getElementById('name').innerHTML=a-b;
+                 break;
+                case'/':
+                document.getElementById('name').innerHTML=a/b;
+                 break;
+                case'*':
+                document.getElementById('name').innerHTML=a*b;
+                break;
+                default:
+                document.getElementById('name').innerHTML="error";
+            }
+                
+            
+        }
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <input type="number" placeholder="table number" id="table">
+ <input type="number" placeholder="starting number" id="start">
+ <input type="number" placeholder="ending number" id="end">
+ <p id="by"></p>
+ <button onclick="main()">click</button>
+ <script>
+    function main(){
+        let a=document.getElementById('table').value;
+        let b=document.getElementById('start').value;
+        let c=document.getElementById('end').value;
+        do{
+            document.getElementById('by').innerHTML+=a+"x"+b+"="+a*b+"<br>";
+            b++;
+        }
+        while(b<=c);
+    }
+ </script>
+     -->
+
+    
+
+
+
+
+
+
+     <!-- <input type="number" id="fnum">
+     <button onclick="khan()">click</button>
+     <p id="hi"></p>
+     <script>
+         function khan(){
+         let num=document.getElementById('fnum').value;
+         for(let a=1;a<=num;a++){
+             for(let b=1;b<=a;b++){
+                 document.getElementById('hi').innerHTML+='*';
+             }
+             document.getElementById('hi').innerHTML+='<br>';
+         }
+     }
+     </script> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <input type="number" placeholder="enter your table" id="table">
+    <input type="number" placeholder="enter your first number" id="snum">
+     <input type="number" placeholder="enter your second number" id="enum">
+     <p id="p1"></p>
+     <button onclick="khan()">click</button>
+     <script>
+         function khan(){
+             let a=document.getElementById('table').value;
+             let d=document.getElementById('snum').value;
+             let c=document.getElementById('enum').value;
+             for(let b=d;b<=c;b++){
+                 document.getElementById('p1').innerHTML+=a+" X "+b+" = "+b*a+"</br>";              
+             
+         }
+     </script>
+
+ -->
+
+
+// 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- <input type="number" placeholder="enter your table" id="table">
+//     <button onclick="khan()">click</button>
+//     <p id="p"></p>
+//     <script>
+//         function khan(){
+//             let a=document.getElementById('table').value;
+//             for(let b=1;b<=10;b++){
+//                 document.getElementById('p').innerHTML+=a+" X "+b+" = "+a*b+"</br>";
+//             }
+//         }
+//     </script>
+//       -->
+
+
+
+
+
+
+
+ <!-- 
+//    <input type="text" placeholder="Enter your name " id="name"><br>
+//   <input type="text" placeholder="Enter your father name " id="fname">
+//   <p id="p1"></p>
+//   <p id="p2"></p>
+//   <button onclick="ziarat()">Answer</button>
+//    <script>
+//     function ziarat(){
+//         let one=document.getElementById('name').value;
+//          document.getElementById('p1').innerHTML="Your name is : "+one;
+//         let two=document.getElementById('fname').value;
+//          document.getElementById('p2').innerHTML="Your father name is : "+two;
+//     }
+//    </script>
+
+//   -->
+
+
+
+<!-- 
+
+
+//  <input type="text" placeholder="enter your name" id="name"><br>
+// <input type="text" placeholder="enter your father name" id="fname"><br>
+// <input type="text" placeholder="enter your chemistry marks" id="chem"><br>
+// <input type="text" placeholder="enter your phyiscs marks" id="phy"><br>
+// <input type="text" placeholder="enter your english marks" id="eng"><br>
+// <input type="text" placeholder="enter your math marks" id="math"><br>
+// <input type="text" placeholder="enter your urdu marks" id="urdu"><br>
+// <input type="text" placeholder="enter your islamiat marks" id="isla"><br>
+// <br>
+// <button onclick="khan()">result</button>
+// <p id="p_div1"></p>
+// <p id="p_div2"></p>
+// <p id="p_div3"></p>
+// <p id="p_div4"></p>
+// <p id="p_div5"></p>
+// <p id="p_div6"></p>
+// <p id="p_div7"></p>
+// <script>
+//   function khan(){
+//     let first=parseInt(document.getElementById('name').value);
+//     let second=parseInt(document.getElementById('fname').value);
+//     let three=parseInt(document.getElementById('chem').value);
+//     let four=parseInt(document.getElementById('phy').value);
+//     let five=parseInt(document.getElementById('eng').value);
+//     let six=parseInt(document.getElementById('math').value);
+//     let siven=parseInt(document.getElementById('urdu').value);
+//     let eight=parseInt(document.getElementById('isla').value);
+    
+
+//     if(three>=33 && three<=100){
+//         document.getElementById('p_div1').innerHTML="the chemistry marks is"+three+"Qualified chemistry subject";
+        
+//     }
+//     else{
+//          document.getElementById('p_div1').innerHTML="the chemistry marks is"+three+"Disqualified chemistry subject";
+//     }
+//     if(four>=33 && four<=100){
+//         document.getElementById('p_div2').innerHTML="the phyiscs marks is"+four+"Qualified phyiscs subject";
+        
+//     }
+//     else{
+//          document.getElementById('p_div2').innerHTML="the phyiscs marks is"+four+"Disqualified phyiscs subject";
+//     }
+    
+//     if(five>=33 && five<=100){
+//         document.getElementById('p_div3').innerHTML="the english marks is"+five+"Qualified english subject";
+        
+//     }
+//     else{
+//          document.getElementById('p_div3').innerHTML="the english marks is"+five+"Disqualified english subject";
+//     }
+    
+//     if(six>=33 && six<=100){
+//         document.getElementById('p_div4').innerHTML="the math marks is"+six+"Qualified math subject";
+        
+//     }
+//     else{
+//          document.getElementById('p_div4').innerHTML="the math marks is"+six+"Disqualified math subject";
+//     }
+//     if(siven>=33 && siven<=100){
+//         document.getElementById('p_div5').innerHTML="the urdu marks is"+siven+"Qualified urdu subject";
+        
+//     }
+//     else{
+//          document.getElementById('p_div5').innerHTML="the urdu marks is"+siven+"Disqualified urdu subject";
+//     }
+//     if(eight>=33 && eight<=100){
+//         document.getElementById('p_div6').innerHTML="the islamiat marks is"+eight+"Qualified islamiat subject";
+        
+//     }
+//     else{
+//          document.getElementById('p_div6').innerHTML="the islamiat marks is"+eight+"Disqualified islamiat subject";
+//     }
+//     let obt=three+four+five+six+siven+eight;
+//     if(obt>182){
+//         document.getElementById('p_div7').innerHTML="pass";
+
+//     }
+//     else{
+//         document.getElementById('p_div7').innerHTML="fail";
+//     }      
+//   }
+  
+
+
+// </script> -->
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+//  <input type="number" placeholder="enter your frist number" id="fnum">
+//  <input type="number" placeholder="enter your second number" id="snum">
+//  <input type="text" placeholder="enter your operator" id="ope">
+//  <button onclick="khan()">click</button>
+//  <p id="div"></p>
+//  <script>
+//     function khan(){
+//         let first=parseInt(document.getElementById('fnum').value);
+//         let second=parseInt(document.getElementById('snum').value);
+//         let four=document.getElementById('ope').value;
+//         if(four=='+'){
+//             let result=first+second;
+//             document.getElementById('div').innerHTML="the addation of frist and second number "+result;
+//         }
+//         else if(four=='-'){
+//                let result=first-second;
+//             document.getElementById('div').innerHTML="the sub of frist and second number "+result;
+//         }
+        
+//     }
+//  </script>
+
+
+
+//  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- 
+//     <input type="number" placeholder="Enter Your First Number" id="fnum">
+//     <input type="number" placeholder="Enter Your second Number" id="snum">
+//     <input type="text" placeholder="Enter Your operator" id="ope">
+//     <button onclick="adeel()">Answer</button>
+//     <p id="answer"></p>
+
+//     <script>
+//         function adeel(){
+//             let pehla_number=parseInt(document.getElementById('fnum').value);
+//             let dosra_number=parseInt(document.getElementById('snum').value);
+//             let operat=document.getElementById('ope').value;
+            
+//             if(operat=='+'){
+//                 let result=pehla_number+dosra_number;
+//                 document.getElementById('answer').innerHTML="<h1>the addition of "+pehla_number +" and "+ dosra_number + " number is "+result+"</h1>";
+//             }
+//             else{
+//                 document.getElementById('answer').innerHTML="<h1>Error</h1>";
+//             }
+//         }
+//     </script> -->
+     <!--
+// <button>sign</button>
+// <script>
+//     alert("welcome to new website")
+// </script>
+// -->
+
+
+ <input type="text"  id="name" onblur="khan()">
+ <button onclick="sirkhan()">click it</button>
+ <p id="page"></p>
+ <script>
+    function khan(){
+    let kakar=document.getElementById('name');
+        kakar.value=kakar.value.toUpperCase();
+    }
+    function sirkhan(){
+        let a=document.getElementById('name').value;
+        document.getElementById('page').innerHTML=a;
+        
+        
+
+        
+    }
+  
+ </script>
+
+
+
+
+
+    
+ </body>
+ </html>
